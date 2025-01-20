@@ -1,0 +1,4 @@
+ssh server authentication mode local
+ssh server authentication type pap
+no ssh server only
+ssh server version 2
