@@ -1,4 +1,6 @@
+ssh server enable
 ssh server authentication mode local
 ssh server authentication type pap
+ssh server authentication type chap
 no ssh server only
 ssh server version 2
