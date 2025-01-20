@@ -1,0 +1,51 @@
+con t
+onu-pnp
+onu-type-default gpon ALL
+  onu-vlan gpon-olt_1/2/1 mode tag vlan 2002
+  onu-vlan gpon-olt_1/2/2 mode tag vlan 2002
+  onu-vlan gpon-olt_1/2/3 mode tag vlan 2002
+  onu-vlan gpon-olt_1/2/4 mode tag vlan 2002
+  onu-vlan gpon-olt_1/2/5 mode tag vlan 2002
+  onu-vlan gpon-olt_1/2/6 mode tag vlan 2002
+  onu-vlan gpon-olt_1/2/7 mode tag vlan 2002
+  onu-vlan gpon-olt_1/2/8 mode tag vlan 2002
+  olt-vlan transparent gpon-olt_1/2/1 
+  olt-vlan transparent gpon-olt_1/2/2 
+  olt-vlan transparent gpon-olt_1/2/3 
+  olt-vlan transparent gpon-olt_1/2/4 
+  olt-vlan transparent gpon-olt_1/2/5 
+  olt-vlan transparent gpon-olt_1/2/6 
+  olt-vlan transparent gpon-olt_1/2/7 
+  olt-vlan transparent gpon-olt_1/2/8 
+  onu-uni-vlan gpon-olt_1/2/1 eth_0/1 mode tag vlan 2002
+  onu-uni-vlan gpon-olt_1/2/1 eth_0/2 mode tag vlan 110
+  onu-uni-vlan gpon-olt_1/2/1 eth_0/3 mode tag vlan 111
+  onu-uni-vlan gpon-olt_1/2/1 eth_0/4 mode tag vlan 2001
+  onu-uni-vlan gpon-olt_1/2/2 eth_0/1 mode tag vlan 2002
+  onu-uni-vlan gpon-olt_1/2/2 eth_0/2 mode tag vlan 110
+  onu-uni-vlan gpon-olt_1/2/2 eth_0/3 mode tag vlan 111
+  onu-uni-vlan gpon-olt_1/2/2 eth_0/4 mode tag vlan 2001
+  onu-uni-vlan gpon-olt_1/2/3 eth_0/1 mode tag vlan 2002
+  onu-uni-vlan gpon-olt_1/2/3 eth_0/2 mode tag vlan 110
+  onu-uni-vlan gpon-olt_1/2/3 eth_0/3 mode tag vlan 111
+  onu-uni-vlan gpon-olt_1/2/3 eth_0/4 mode tag vlan 2001
+  onu-uni-vlan gpon-olt_1/2/4 eth_0/1 mode tag vlan 2002
+  onu-uni-vlan gpon-olt_1/2/4 eth_0/2 mode tag vlan 110
+  onu-uni-vlan gpon-olt_1/2/4 eth_0/3 mode tag vlan 111
+  onu-uni-vlan gpon-olt_1/2/4 eth_0/4 mode tag vlan 2001
+  onu-uni-vlan gpon-olt_1/2/5 eth_0/1 mode tag vlan 2002
+  onu-uni-vlan gpon-olt_1/2/5 eth_0/2 mode tag vlan 110
+  onu-uni-vlan gpon-olt_1/2/5 eth_0/3 mode tag vlan 111
+  onu-uni-vlan gpon-olt_1/2/5 eth_0/4 mode tag vlan 2001
+  onu-uni-vlan gpon-olt_1/2/6 eth_0/1 mode tag vlan 2002
+  onu-uni-vlan gpon-olt_1/2/6 eth_0/2 mode tag vlan 110
+  onu-uni-vlan gpon-olt_1/2/6 eth_0/3 mode tag vlan 111
+  onu-uni-vlan gpon-olt_1/2/6 eth_0/4 mode tag vlan 2001
+  onu-uni-vlan gpon-olt_1/2/7 eth_0/1 mode tag vlan 2002
+  onu-uni-vlan gpon-olt_1/2/7 eth_0/2 mode tag vlan 110
+  onu-uni-vlan gpon-olt_1/2/7 eth_0/3 mode tag vlan 111
+  onu-uni-vlan gpon-olt_1/2/7 eth_0/4 mode tag vlan 2001
+  onu-uni-vlan gpon-olt_1/2/8 eth_0/1 mode tag vlan 2002
+  onu-uni-vlan gpon-olt_1/2/8 eth_0/2 mode tag vlan 110
+  onu-uni-vlan gpon-olt_1/2/8 eth_0/3 mode tag vlan 111
+  onu-uni-vlan gpon-olt_1/2/8 eth_0/4 mode tag vlan 2001
