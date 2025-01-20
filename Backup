@@ -1,0 +1,32 @@
+Buat user password dulu di mikrotik open port telnet 23
+
+backup OLT V2
+file upload cfg-startup *.* ftp ipaddress 10.42.14.1 user ? password ?
+restore OLT V2
+file delete cfg-startup *.*
+file download cfg-startup *.* ftp ipaddress 10.42.14.1 path /olt/ user ? password ?
+reboot
+
+backup restore OLT V1
+upload cfg *.* ftp ipaddress 10.22.5.1 user zidan password zidan
+
+
+- cek fimware
+sho version-runnning
+- cek patch
+sho patch-
+
+
+-fimware v2
+
+
+file download version
+-fimware v1
+download img
+
+-delver
+delete img *.*
+
+
+Butuh bantuan 
+0823-6306-6495
